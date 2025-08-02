@@ -19,6 +19,7 @@ public class StockService {
 
     @Tool(name = "get_stocks", description = "Get a list of stocks from List")
     public List<Stocks> getCourses() {
+        System.out.println("get_stocks : "+ stocks);
         return stocks;
     }
 
@@ -30,8 +31,13 @@ public class StockService {
                 new Stocks("GOOGL", "Alphabet Inc.", "NASDAQ", 2800.00),
                 new Stocks("AMZN", "Amazon.com Inc.", "NASDAQ", 3400.00),
                 new Stocks("MSFT", "Microsoft Corporation", "NASDAQ", 299.00),
-                new Stocks("TSLA", "Tesla Inc.", "NASDAQ", 700.00)
+                new Stocks("TSLA", "Tesla Inc.", "NASDAQ", 700.00),
+                new Stocks("FB", "Facebook Inc.", "NASDAQ", 300.00),
+                new Stocks("NVDA", "Nvidia Corporation", "NASDAQ", 600.00),
+                new Stocks("JPM", "JPMorgan Chase & Co.", "NASDAQ", 150.00),
+                new Stocks("BRK.B", "Berkshire Hathaway Inc.", "NASDAQ", 300.00),
+                new Stocks("MA", "Mastercard Incorporated", "NASDAQ", 300.00),
+                new Stocks("V", "Visa Inc.", "NASDAQ", 300.00)
         ));
     }
-
 }

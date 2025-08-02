@@ -17,8 +17,8 @@ public class McpServerApp {
 	}
 
 	@Bean
-	public List<ToolCallback> danTools(StockService courseService) {
-		return List.of(ToolCallbacks.from(courseService));
+	public List<ToolCallback> tools(StockService stockService) {
+		return List.of(ToolCallbacks.from(stockService));
 	}
 
 }
