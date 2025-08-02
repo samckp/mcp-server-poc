@@ -1,6 +1,6 @@
 # mcp-server-poc
 
-Add below details in claude_desktop_config.json file
+Add below details in claude_desktop_config.json file and open Claude Desktop application
 
 { <br>
     "mcpServers":{    
